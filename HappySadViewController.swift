@@ -26,6 +26,20 @@ class HappySadViewController: UIViewController, ExpressionViewDataSource
         
     }
    
+    var minimumPressDuration: CFTimeInterval = 0.0
+    
+    @IBAction func changeMood(gesture: UILongPressGestureRecognizer)
+    {
+        gesture.minimumPressDuration = 0.0
+        switch gesture.state {
+            case .Began: fallthrough
+            case.Changed:
+                self.happySad = 0
+            case .Ended:
+                self.happySad = 100
+            default: break
+            }
+    }
         
     func updateUI() {
         expressionView.setNeedsDisplay()
@@ -36,3 +50,4 @@ class HappySadViewController: UIViewController, ExpressionViewDataSource
     }
 
 }
+
