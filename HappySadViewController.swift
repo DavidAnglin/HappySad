@@ -24,7 +24,6 @@ class HappySadViewController: UIViewController, ExpressionViewDataSource
             print("happy = \(happySad)")
             updateUI()
         }
-        
     }
    
     var minimumPressDuration: CFTimeInterval = 0.0
