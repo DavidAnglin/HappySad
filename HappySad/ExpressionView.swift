@@ -79,7 +79,6 @@ class ExpressionView: UIView {
     
     weak var dataSource: ExpressionViewDataSource?
     
-   
 
     override func drawRect(rect: CGRect)
     {
@@ -90,6 +89,7 @@ class ExpressionView: UIView {
         
         bezierPathForEye(.Left).stroke()
         bezierPathForEye(.Right).stroke()
+        
         
         let smiliness = dataSource?.smilinessForExpressionView(self) ?? 0
         let smilePath = bezierPathForSmile(smiliness)

@@ -11,7 +11,8 @@ import UIKit
 class HappySadViewController: UIViewController, ExpressionViewDataSource
 {
     
-    @IBOutlet weak var expressionView: ExpressionView! {
+    @IBOutlet weak var expressionView: ExpressionView!
+    {
         didSet {
             expressionView.dataSource = self
         }
