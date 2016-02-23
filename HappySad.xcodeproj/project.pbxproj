@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7DDC0921C7CD31F009385CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDC0911C7CD31F009385CF /* AppDelegate.swift */; };
+		D7DDC0971C7CD31F009385CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DDC0951C7CD31F009385CF /* Main.storyboard */; };
+		D7DDC0991C7CD31F009385CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DDC0981C7CD31F009385CF /* Assets.xcassets */; };
+		D7DDC09C1C7CD31F009385CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DDC09A1C7CD31F009385CF /* LaunchScreen.storyboard */; };
+		D7DDC0A71C7CD31F009385CF /* HappySadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDC0A61C7CD31F009385CF /* HappySadTests.swift */; };
+		D7DDC0B21C7CD31F009385CF /* HappySadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDC0B11C7CD31F009385CF /* HappySadUITests.swift */; };
+		D7DDC0C11C7CD5D6009385CF /* HappySadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDC0C01C7CD5D6009385CF /* HappySadViewController.swift */; };
+		D7DDC0C31C7CD788009385CF /* ExpressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDC0C21C7CD788009385CF /* ExpressionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7DDC0A31C7CD31F009385CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7DDC0861C7CD31F009385CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7DDC08D1C7CD31F009385CF;
+			remoteInfo = HappySad;
+		};
+		D7DDC0AE1C7CD31F009385CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7DDC0861C7CD31F009385CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7DDC08D1C7CD31F009385CF;
+			remoteInfo = HappySad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7DDC08E1C7CD31F009385CF /* HappySad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappySad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DDC0911C7CD31F009385CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7DDC0961C7CD31F009385CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7DDC0981C7CD31F009385CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7DDC09B1C7CD31F009385CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7DDC09D1C7CD31F009385CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DDC0A21C7CD31F009385CF /* HappySadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappySadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DDC0A61C7CD31F009385CF /* HappySadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappySadTests.swift; sourceTree = "<group>"; };
+		D7DDC0A81C7CD31F009385CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DDC0AD1C7CD31F009385CF /* HappySadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappySadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DDC0B11C7CD31F009385CF /* HappySadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappySadUITests.swift; sourceTree = "<group>"; };
+		D7DDC0B31C7CD31F009385CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DDC0C01C7CD5D6009385CF /* HappySadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappySadViewController.swift; sourceTree = SOURCE_ROOT; };
+		D7DDC0C21C7CD788009385CF /* ExpressionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7DDC08B1C7CD31F009385CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DDC09F1C7CD31F009385CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DDC0AA1C7CD31F009385CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7DDC0851C7CD31F009385CF = {
+			isa = PBXGroup;
+			children = (
+				D7DDC0901C7CD31F009385CF /* HappySad */,
+				D7DDC0A51C7CD31F009385CF /* HappySadTests */,
+				D7DDC0B01C7CD31F009385CF /* HappySadUITests */,
+				D7DDC08F1C7CD31F009385CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7DDC08F1C7CD31F009385CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7DDC08E1C7CD31F009385CF /* HappySad.app */,
+				D7DDC0A21C7CD31F009385CF /* HappySadTests.xctest */,
+				D7DDC0AD1C7CD31F009385CF /* HappySadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7DDC0901C7CD31F009385CF /* HappySad */ = {
+			isa = PBXGroup;
+			children = (
+				D7DDC0C01C7CD5D6009385CF /* HappySadViewController.swift */,
+				D7DDC0951C7CD31F009385CF /* Main.storyboard */,
+				D7DDC0C21C7CD788009385CF /* ExpressionView.swift */,
+				D7DDC0BF1C7CD326009385CF /* Selected Files */,
+				D7DDC0981C7CD31F009385CF /* Assets.xcassets */,
+				D7DDC0911C7CD31F009385CF /* AppDelegate.swift */,
+				D7DDC09A1C7CD31F009385CF /* LaunchScreen.storyboard */,
+				D7DDC09D1C7CD31F009385CF /* Info.plist */,
+			);
+			path = HappySad;
+			sourceTree = "<group>";
+		};
+		D7DDC0A51C7CD31F009385CF /* HappySadTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7DDC0A61C7CD31F009385CF /* HappySadTests.swift */,
+				D7DDC0A81C7CD31F009385CF /* Info.plist */,
+			);
+			path = HappySadTests;
+			sourceTree = "<group>";
+		};
+		D7DDC0B01C7CD31F009385CF /* HappySadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7DDC0B11C7CD31F009385CF /* HappySadUITests.swift */,
+				D7DDC0B31C7CD31F009385CF /* Info.plist */,
+			);
+			path = HappySadUITests;
+			sourceTree = "<group>";
+		};
+		D7DDC0BF1C7CD326009385CF /* Selected Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Selected Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7DDC08D1C7CD31F009385CF /* HappySad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DDC0B61C7CD31F009385CF /* Build configuration list for PBXNativeTarget "HappySad" */;
+			buildPhases = (
+				D7DDC08A1C7CD31F009385CF /* Sources */,
+				D7DDC08B1C7CD31F009385CF /* Frameworks */,
+				D7DDC08C1C7CD31F009385CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappySad;
+			productName = HappySad;
+			productReference = D7DDC08E1C7CD31F009385CF /* HappySad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7DDC0A11C7CD31F009385CF /* HappySadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DDC0B91C7CD31F009385CF /* Build configuration list for PBXNativeTarget "HappySadTests" */;
+			buildPhases = (
+				D7DDC09E1C7CD31F009385CF /* Sources */,
+				D7DDC09F1C7CD31F009385CF /* Frameworks */,
+				D7DDC0A01C7CD31F009385CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7DDC0A41C7CD31F009385CF /* PBXTargetDependency */,
+			);
+			name = HappySadTests;
+			productName = HappySadTests;
+			productReference = D7DDC0A21C7CD31F009385CF /* HappySadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7DDC0AC1C7CD31F009385CF /* HappySadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DDC0BC1C7CD31F009385CF /* Build configuration list for PBXNativeTarget "HappySadUITests" */;
+			buildPhases = (
+				D7DDC0A91C7CD31F009385CF /* Sources */,
+				D7DDC0AA1C7CD31F009385CF /* Frameworks */,
+				D7DDC0AB1C7CD31F009385CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7DDC0AF1C7CD31F009385CF /* PBXTargetDependency */,
+			);
+			name = HappySadUITests;
+			productName = HappySadUITests;
+			productReference = D7DDC0AD1C7CD31F009385CF /* HappySadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7DDC0861C7CD31F009385CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "David Anglin";
+				TargetAttributes = {
+					D7DDC08D1C7CD31F009385CF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = EZVKD2Y4CX;
+					};
+					D7DDC0A11C7CD31F009385CF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = EZVKD2Y4CX;
+						TestTargetID = D7DDC08D1C7CD31F009385CF;
+					};
+					D7DDC0AC1C7CD31F009385CF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = EZVKD2Y4CX;
+						TestTargetID = D7DDC08D1C7CD31F009385CF;
+					};
+				};
+			};
+			buildConfigurationList = D7DDC0891C7CD31F009385CF /* Build configuration list for PBXProject "HappySad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7DDC0851C7CD31F009385CF;
+			productRefGroup = D7DDC08F1C7CD31F009385CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7DDC08D1C7CD31F009385CF /* HappySad */,
+				D7DDC0A11C7CD31F009385CF /* HappySadTests */,
+				D7DDC0AC1C7CD31F009385CF /* HappySadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7DDC08C1C7CD31F009385CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DDC09C1C7CD31F009385CF /* LaunchScreen.storyboard in Resources */,
+				D7DDC0991C7CD31F009385CF /* Assets.xcassets in Resources */,
+				D7DDC0971C7CD31F009385CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DDC0A01C7CD31F009385CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DDC0AB1C7CD31F009385CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7DDC08A1C7CD31F009385CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DDC0C11C7CD5D6009385CF /* HappySadViewController.swift in Sources */,
+				D7DDC0921C7CD31F009385CF /* AppDelegate.swift in Sources */,
+				D7DDC0C31C7CD788009385CF /* ExpressionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DDC09E1C7CD31F009385CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DDC0A71C7CD31F009385CF /* HappySadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DDC0A91C7CD31F009385CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DDC0B21C7CD31F009385CF /* HappySadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7DDC0A41C7CD31F009385CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7DDC08D1C7CD31F009385CF /* HappySad */;
+			targetProxy = D7DDC0A31C7CD31F009385CF /* PBXContainerItemProxy */;
+		};
+		D7DDC0AF1C7CD31F009385CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7DDC08D1C7CD31F009385CF /* HappySad */;
+			targetProxy = D7DDC0AE1C7CD31F009385CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7DDC0951C7CD31F009385CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7DDC0961C7CD31F009385CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7DDC09A1C7CD31F009385CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7DDC09B1C7CD31F009385CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7DDC0B41C7CD31F009385CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7DDC0B51C7CD31F009385CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7DDC0B71C7CD31F009385CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappySad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidAnglin.HappySad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7DDC0B81C7CD31F009385CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappySad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidAnglin.HappySad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7DDC0BA1C7CD31F009385CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HappySadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidAnglin.HappySadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappySad.app/HappySad";
+			};
+			name = Debug;
+		};
+		D7DDC0BB1C7CD31F009385CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HappySadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidAnglin.HappySadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappySad.app/HappySad";
+			};
+			name = Release;
+		};
+		D7DDC0BD1C7CD31F009385CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HappySadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidAnglin.HappySadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HappySad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D7DDC0BE1C7CD31F009385CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HappySadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidAnglin.HappySadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HappySad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7DDC0891C7CD31F009385CF /* Build configuration list for PBXProject "HappySad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DDC0B41C7CD31F009385CF /* Debug */,
+				D7DDC0B51C7CD31F009385CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7DDC0B61C7CD31F009385CF /* Build configuration list for PBXNativeTarget "HappySad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DDC0B71C7CD31F009385CF /* Debug */,
+				D7DDC0B81C7CD31F009385CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7DDC0B91C7CD31F009385CF /* Build configuration list for PBXNativeTarget "HappySadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DDC0BA1C7CD31F009385CF /* Debug */,
+				D7DDC0BB1C7CD31F009385CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7DDC0BC1C7CD31F009385CF /* Build configuration list for PBXNativeTarget "HappySadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DDC0BD1C7CD31F009385CF /* Debug */,
+				D7DDC0BE1C7CD31F009385CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7DDC0861C7CD31F009385CF /* Project object */;
+}
