@@ -30,6 +30,9 @@
                             <constraint firstAttribute="trailing" secondItem="DNw-cH-4iO" secondAttribute="trailing" id="Qj3-QD-cqc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="expressionView" destination="DNw-cH-4iO" id="5rc-Cq-Sq3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bhu-7N-WnG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

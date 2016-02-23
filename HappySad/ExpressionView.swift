@@ -8,6 +8,11 @@
 
 import UIKit
 
+protocol ExpressionViewDataSource: class {
+    func smilinessForExpressionView(sender: ExpressionView) -> Double?
+}
+
+@IBDesignable
 class ExpressionView: UIView {
     
     var lineWidth: CGFloat = 3 { didSet {setNeedsDisplay() } }
@@ -72,6 +77,7 @@ class ExpressionView: UIView {
         return path
     }
     
+    weak var dataSource: ExpressionViewDataSource?
 
     override func drawRect(rect: CGRect)
     {
@@ -83,12 +89,8 @@ class ExpressionView: UIView {
         bezierPathForEye(.Left).stroke()
         bezierPathForEye(.Right).stroke()
         
-        let smiliness = 0.2
+        let smiliness = dataSource?.smilinessForExpressionView(self) ?? 0
         let smilePath = bezierPathForSmile(smiliness)
-        smilePath.stroke()
-        
-        
+        smilePath.stroke()        
     }
-    
-
 }
